@@ -17,6 +17,8 @@ public class App
     public static void main( String[] args )
     {
         try {
+
+
             DatabaseConnection databaseConnection = DatabaseConnection.getInstance();
             Connection connection = databaseConnection.getConnection();
 
